@@ -1,0 +1,19 @@
+﻿@model Assignment1.Models.Hotels
+@{
+
+    ViewData["Title"] = "BookNow";
+}
+
+<div>
+    <p>@Model.Name - @Model.Location</p>
+    <p>Check-in: @Model.CheckInDate, Check-out: @Model.CheckOutDate, Price: @Model.PricePerNight</p>
+</div>
+
+<form asp-controller="Hotels" asp-action="ConfirmBooking" method="post">
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <input type="hidden" name="hotelId" value="@Model.HotelId" />
+    <input type="submit" value="Confirm Booking">
+</form>

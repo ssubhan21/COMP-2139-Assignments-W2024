@@ -1,0 +1,25 @@
+﻿@model List<Assignment1.Models.Hotels>
+@{
+    ViewData["Title"] = "Search Result";
+}
+
+
+<h1>Hotel Search Result</h1>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var hotel in Model)
+    {
+        <div>
+            <p>@hotel.Name - @hotel.Location</p>
+            <p>Pricing: @hotel.PricePerNight</p>
+            <p>Check-In Date: @hotel.CheckInDate, Check-Out Date: @hotel.CheckOutDate</p>
+            <a asp-controller="Hotels" asp-action="BookNow" asp-route-hotelId="@hotel.HotelId">Book Now</a>
+        </div>
+    }
+}
+else
+{
+    <p>No hotels found based on your search criteria.</p>
+}
+

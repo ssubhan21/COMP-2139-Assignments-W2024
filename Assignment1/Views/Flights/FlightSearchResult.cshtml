@@ -1,0 +1,24 @@
+﻿@model List<Assignment1.Models.Flights>
+@{
+    ViewData["Title"] = "Flight Search Result";
+}
+
+<h1>FlightSearchResult</h1>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var flight in Model)
+    {
+        <div>
+            <p>@flight.Airline - @flight.DepartureCity to @flight. ArrivalCity</p>
+            <p>Departure Time: @flight.DepartureTime, Price: @flight.Price</p>
+            <a asp-controller="Flights" asp-action="BookNow" asp-route-flightId="@flight.FlightId">Book Now</a>
+        </div>
+    }
+}
+else
+{
+    <p>No flights found based on your search criteria.</p>
+}
+
+
