@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohda\\source\\repos\\ssubhan21\\COMP-2139-Assignments-W2024\\Assignment1\\Assignment1.csproj": {}
+    "C:\\Users\\mohda\\Source\\Repos\\ssubhan21\\COMP-2139-Assignments-W2024\\Assignment1\\Assignment1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohda\\source\\repos\\ssubhan21\\COMP-2139-Assignments-W2024\\Assignment1\\Assignment1.csproj": {
+    "C:\\Users\\mohda\\Source\\Repos\\ssubhan21\\COMP-2139-Assignments-W2024\\Assignment1\\Assignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohda\\source\\repos\\ssubhan21\\COMP-2139-Assignments-W2024\\Assignment1\\Assignment1.csproj",
+        "projectUniqueName": "C:\\Users\\mohda\\Source\\Repos\\ssubhan21\\COMP-2139-Assignments-W2024\\Assignment1\\Assignment1.csproj",
         "projectName": "Assignment1",
-        "projectPath": "C:\\Users\\mohda\\source\\repos\\ssubhan21\\COMP-2139-Assignments-W2024\\Assignment1\\Assignment1.csproj",
+        "projectPath": "C:\\Users\\mohda\\Source\\Repos\\ssubhan21\\COMP-2139-Assignments-W2024\\Assignment1\\Assignment1.csproj",
         "packagesPath": "C:\\Users\\mohda\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mohda\\source\\repos\\ssubhan21\\COMP-2139-Assignments-W2024\\Assignment1\\obj\\",
         "projectStyle": "PackageReference",
